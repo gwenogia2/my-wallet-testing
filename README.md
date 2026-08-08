@@ -9,4 +9,4 @@ A minimal Laravel project built to explore **Unit Testing** and **Exception Hand
 
 ## Run Test
 ```bash
-php artisan test --filter WalletServiceTest
+php artisan test --filter MyWalletTest
