@@ -1,4 +1,4 @@
-# MyWallet - Laravel Unit Testing Practice
+# MyWallet (Laravel Unit Testing Practice)
 
 A minimal Laravel project built to explore **Unit Testing** and **Exception Handling** without database dependency.
 
