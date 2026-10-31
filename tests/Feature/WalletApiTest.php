@@ -10,6 +10,7 @@ class WalletApiTest extends TestCase
 {
     use RefreshDatabase;
 
+    // Menguji proses deposit berhasil melalui endpoint API.
     public function test_user_dapat_melakukan_deposit_via_endpoint_api(): void
     {
 
@@ -31,6 +32,7 @@ class WalletApiTest extends TestCase
         ]);
     }
 
+    // Menguji validasi deposit ketika nominal yang diberikan adalah 0 atau negatif.
     public function test_deposit_gagal_jika_nominal_nol_atau_minus(): void
     {
 
